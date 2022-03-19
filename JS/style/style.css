@@ -1,0 +1,111 @@
+
+.inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rectangulo {
+    width: 300px; 
+    height: 600px; 
+    border: 3px solid #ca4242;
+    border-radius: 5%;
+    border-color: black;
+    border-style: solid;
+    background: #ca4242;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}.rectangulo2 {
+    width: 300px; 
+    height: 500px; 
+    border: 3px solid #ca4242;
+    border-radius: 5%;
+    border-color: black;
+    border-style: solid;
+    background: #ca4242;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.pantalla{
+    display: flex;
+    width: 200px; 
+    height: 200px; 
+    border: 3px solid #ffffff;
+    border-radius: 5%;
+    background: #ffffff;
+
+
+}
+
+.input-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input{
+    width: 100px;
+    margin: 5%;
+}
+
+.titulos{
+        font-family: 'courier', monospace;
+        font-style: normal;
+        font-weight: bolder;
+        font-size: xx-large;
+        color: rgb(24, 185, 118);
+      }
+
+
+.titulos2{
+        font-family: 'courier', monospace;
+        font-style: normal;
+        font-weight: bold;
+        font-size: x-large;
+        color: rgb(24, 185, 118);
+  
+      }
+ .titulos3{
+        font-family: 'courier', monospace;
+        font-style:  italic;
+        font-weight: bold;
+ 
+        font-size: large;
+        color: rgb(24, 185, 118);
+  
+      }
+
+      .titulosMovNombre{
+        font-family: 'courier', monospace;
+        font-style:  italic;
+        font-weight: bold;
+        font-size: medium;
+        color: rgb(24, 185, 118);
+  
+      }
+      .titulosMovNumero{
+        font-family: 'courier', monospace;
+        font-style:  italic;
+        font-weight: bolder;
+        font-size: medium;
+        color: rgb(0, 0, 0);
+  
+      }
+
+.pantallabits{
+    background-color: rgb(116, 116, 116);
+    width: 250px; 
+    height: 400px; 
+    border-radius: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
